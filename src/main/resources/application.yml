@@ -13,3 +13,8 @@ spring:
 
 server:
   port: 8080
+
+workbot:
+  jwt:
+    issuer: workbot
+    audience: workbot-api
